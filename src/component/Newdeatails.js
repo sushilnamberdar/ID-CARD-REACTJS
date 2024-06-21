@@ -21,7 +21,7 @@ const Newdeatails = () => {
     return (
         <>
             <div className="w-full overflow-x-auto">
-                <div ref={contentToPrint} className="min-w-[500px] ml-10 sm:ml-40 relative shadow-lg mt-10">
+                <div ref={contentToPrint} className="min-w-[500px]   relative mt-10">
                     <div>
                         <img className="w-[500px]" src={idcard} alt="School ID Card" />
                     </div>
@@ -59,7 +59,7 @@ const Newdeatails = () => {
                             {idnumber}
                         </div>
                         <div className="absolute top-[-37px] left-[-140px] rounded-full font-bold">
-                            <img className="rounded-full w-[120px] h-[117px]" src={image} alt="Student" />
+                            <img className="rounded-full w-[120px] text-red-800 h-[117px]" src={image} alt="ID PHOTO" />
                         </div>
                         <div className="absolute top-[96px] left-[136px] w-[150px]">
                             <img className="h-[50px]" src={authsign} alt="Signature" />
