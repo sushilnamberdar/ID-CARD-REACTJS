@@ -6,11 +6,11 @@ import Thirdone from './Thirdone'
 
 const Main = () => {
   return (
-    <div className='flex   justify-center flex-wrap'>
-        <div className='mr-40'>
+    <div className='flex   justify-center items-center flex-wrap'>
+        <div className=' mb-40 lg:mr-40'>
       <Sdetail/>
       </div>
-      <div className='mt-0'>
+      <div>
       <ViewStudentid/>
       <Newdeatails/>
       <Thirdone/>

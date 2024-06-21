@@ -79,7 +79,7 @@ const ViewStudentid = () => {
           </div>
         </div>
       </div>
-      <div className=' mt-[-200px]'>
+      <div className=' mt-[-200px] flex items-center justify-center'>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-4 cursor-pointer rounded" onClick={() => {
           handlePrint(null, () => contentToPrint.current);
         }}>
