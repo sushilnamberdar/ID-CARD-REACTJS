@@ -20,10 +20,10 @@ const Newdeatails = () => {
 
     return (
         <>
-            <div className="w-full overflow-x-auto">
-                <div ref={contentToPrint} className="min-w-[500px]   relative mt-10">
+            <div className="w-full flex justify-center items-center overflow-x-auto  ml-10">
+                <div ref={contentToPrint} className="min-w-[500px]  ml-20 mr-20 relative mt-10 mb-10">
                     <div>
-                        <img className="w-[500px]" src={idcard} alt="School ID Card" />
+                        <img className="w-[500px] " style={{boxShadow:"0.5px 0.5px 10px gray "}} src={idcard} alt="School ID Card" />
                     </div>
                     <div className="absolute top-[20px] left-[120px] text-white text-[30px] font-bold">
                         MEGA MIND SCHOOL

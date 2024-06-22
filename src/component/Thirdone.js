@@ -21,9 +21,9 @@ const Thirdone = () => {
     return (
         <>
             <div className="w-full overflow-x-auto flex items-center justify-center">
-                <div ref={contentToPrint} className="min-w-[500px] ml-10 sm:ml-40 relative mt-10">
+                <div ref={contentToPrint} className="min-w-[400px] ml-32  mb-10 mr-1 sm:ml-40 relative mt-10" >
                     <div>
-                        <img className="h-[650px]" src={idcard} alt="School ID Card" />
+                        <img className="h-[650px]"   style={{boxShadow:"0.5px 0.5px 10px gray "}} src={idcard} alt="School ID Card" />
                     </div>
                     <div className="absolute top-[40px] left-[40px] text-white text-[30px] font-bold">
                         MEGA MIND SCHOOL

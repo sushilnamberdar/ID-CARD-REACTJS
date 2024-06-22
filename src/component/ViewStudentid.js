@@ -26,8 +26,8 @@ const ViewStudentid = () => {
     <>
 
 
-
-      <div ref={contentToPrint} className="grid h-screen justify-center items-center print-container mt-[-250px]">
+<div className="w-full overflow-x-auto flex  items-center  justify-center ">
+      <div ref={contentToPrint} className="grid h-screen  ml-32 mr-10 justify-center items-center  mt-[-250px]" style={{width:'700px'}}>
         <div className="bg-white shadow-lg rounded-lg border border-gray-300" style={{ width: '500px' }}>
           <div className=" text-white text-center py-5 rounded-t-lg" style={{ backgroundColor: 'blue' }}>
             <h1 className="text-2xl font-semibold m-0">MEGA MIND SR SEC SCHOOL (BHADRA)</h1>
@@ -38,10 +38,6 @@ const ViewStudentid = () => {
               <img className='h-10 ' src={authsign} />
               <p className='text-blue-700 ml-10'>PRINCIPAL</p>
             </div>
-
-
-
-
             <div className="ml-4">
               <div className="mb-2">
                 <h4 className="text-gray-500 inline-block mr-1">Name:</h4>
@@ -79,6 +75,7 @@ const ViewStudentid = () => {
           </div>
         </div>
       </div>
+      </div>
       <div className=' mt-[-200px] flex items-center justify-center'>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-4 cursor-pointer rounded" onClick={() => {
           handlePrint(null, () => contentToPrint.current);
@@ -86,6 +83,7 @@ const ViewStudentid = () => {
           PRINT
         </button>
       </div>
+      
     </>
   );
 };
