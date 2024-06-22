@@ -65,8 +65,8 @@ const Thirdone = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="absolute top-[185px] left-[98px] text-white text-[30px] font-bold">
-                        <img className="h-[189px] w-[186px] rounded-[27px]" src={image} alt="ID PHOTO" />
+                    <div className="absolute top-[183px] left-[98px] text-white text-[30px] font-bold">
+                        <img className="h-[192px] w-[186px] rounded-[27px]" src={image} alt="ID PHOTO" />
                     </div>
                     <div className="absolute top-[546px] left-[136px] w-[150px]">
                         <img className="h-[50px]" src={authsign} alt="Signature" />
